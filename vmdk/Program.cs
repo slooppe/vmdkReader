@@ -71,7 +71,7 @@ namespace vmdk
             Console.WriteLine("K       VMDK mounter v0.1      K");
             Console.WriteLine("vVvVvVvVmMmMmMmMdDdDdDdDkKkKkKkK");
             Console.WriteLine("\r\n Usage:");
-            Console.WriteLine("\r\n vmdkmounter.exe --command [command] [command arguments]:");
+            Console.WriteLine("\r\n vmdk.exe --command [command] [command arguments]:");
             Console.WriteLine("\r\n [?] Command: dir - Will output a dirlisting of the provided folder\n");
             Console.WriteLine(" --source: The source of the vmdk drive. It can also accept SMB paths");
             Console.WriteLine(" --directory: The directory you want to list from the vmdk disk. If not provided will default to root path");
